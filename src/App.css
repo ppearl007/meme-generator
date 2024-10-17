@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
 h1 {
   font-size: 1rem;
   color: white;
@@ -19,7 +26,6 @@ h1 {
 .form {
   display: flex;
   flex-direction: column;
-  padding-left: 10%;
 }
 
 .container {
@@ -46,4 +52,9 @@ h1 {
   border-radius: 0.25rem;
   height: 2.5rem;
   color: whitesmoke;
+}
+
+.meme-image {
+  max-width: 90%;
+  margin-top: 2rem;
 }
